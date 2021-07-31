@@ -28,11 +28,12 @@
 -  I can purchase the selected snack.
 -  I can get my changes.
 
+## UML Diagram
 
-
+![](https://ibb.co/B61MFDn) 
 ## How to Use this project !!
 ### In terminal
-- Clone these repo:
+- Clone the repo:
 ```
 git clone https://github.com/aboodswiti/VendingMachine.gitit
 cd vending_machine
