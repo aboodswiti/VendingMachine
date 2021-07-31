@@ -1,7 +1,7 @@
 # Vending-Machine
 ## Build by ReactJs
 
-![](https://media.giphy.com/media/xT5LMW6nbTu8pUHZgA/giphy.gif)
+<!-- ![](https://media.giphy.com/media/xT5LMW6nbTu8pUHZgA/giphy.gif) -->
 
 ## OVERVIEW:
 #### - This Snack Vending Machine contains: 
@@ -34,8 +34,8 @@
 ### In terminal
 - Clone these repo:
 ```
-git clone https://github.com/aboodswiti/angular-countries.git
-cd angular-countries
+git clone https://github.com/aboodswiti/VendingMachine.gitit
+cd vending_machine
 npm i
 ```
 - Run the app:
@@ -47,14 +47,13 @@ npm start
 ```
 npm test
 ```
-- You will see browser window about this test and see bass test and failing
-- Also you can see the tests at terminal
+- You will see the tests at the terminal the passed & failed tests. 
 
 ## Used Technologies
 - React
 - MaterialUi 
 ### For Tests
-- jest & react testing library 
+- Jest & React testing library 
 ### For deploy
 - Heroku
 
