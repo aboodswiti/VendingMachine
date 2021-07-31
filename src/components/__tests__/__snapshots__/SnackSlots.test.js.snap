@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnackSlots,Should Matches snapshot 1`] = `
+<div
+  className="item"
+  data-testid="SnackItem-12"
+>
+  <img
+    alt="item"
+    className="item__img"
+    src="https://www.luluhypermarket.com/medias/424982-01.jpg-515Wx515H?context=bWFzdGVyfGltYWdlc3wxNzk0MDh8aW1hZ2UvanBlZ3xoYjcvaDZhLzk3NzU1NTIzMzE4MDYvNDI0OTgyLTAxLmpwZ181MTVXeDUxNUh8YzE5MDY0NTE5ODE3NWIyMjVmZjRmNGUyNTRjNTc5NTAzMDZjMTdmZjQwNjkxMjc5NzE0MjdiMDg3MTQwNjViYw"
+  />
+  <div
+    className="item__info"
+  >
+    <h3>
+      Pepsi
+    </h3>
+    <h3>
+      $
+      2.5
+    </h3>
+  </div>
+  <h3
+    className="item__location"
+  >
+    12
+  </h3>
+  <h3
+    className="item__quantity"
+  >
+    #
+    5
+  </h3>
+</div>
+`;

@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Changes,Should Matches snapshot 1`] = `
+<div
+  className="changes"
+>
+  <div>
+    <p>
+       Your Changes : 
+    </p>
+    <p>
+      $
+      50
+      : 
+      1
+    </p>
+  </div>
+  <p>
+    Available
+    <br />
+    Change :
+  </p>
+  <h2>
+    $
+  </h2>
+  <h4>
+     $Type : #Amount 
+  </h4>
+  <h3>
+    1
+    : 
+    17
+  </h3>
+  <h3>
+    20
+    : 
+    4
+  </h3>
+  <h3>
+    50
+    : 
+    3
+  </h3>
+  <h3>
+    0.1
+    : 
+    8
+  </h3>
+  <h3>
+    0.2
+    : 
+    5
+  </h3>
+  <h3>
+    0.5
+    : 
+    4
+  </h3>
+</div>
+`;

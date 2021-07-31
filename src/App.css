@@ -1,38 +1,77 @@
 .App {
+  display: flex;
   text-align: center;
+  justify-content: center;
+}
+.container {
+  margin: 1rem; /* = 16px */
+  width: 60%;
+  height: 1.25rem; /* = 20px */
+  display: flex;
+  flex-flow: row wrap;
+  position: inherit;
+  justify-content: center;
+  align-items: center;
+}
+.vm_container {
+  margin-left: auto;
+  padding-left: 6rem;  /* = 96px */
+  margin-bottom: 7rem; /* = 112px */
+}
+.changes {
+  margin-left: auto;
+  border-style: inset;
+}
+.changes h2 {
+  color: #0d8009;
+}
+.ChangeMaking h4 {
+  color: rgb(255, 0, 0);
+}
+.item {
+  margin: 4px;
+  flex: 0 1 calc(20% - 8px); /* <-- adjusting for margin */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Selected-item p {
+  color: red;
+}
+.numpad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 4.5rem;  /* = 72px */
+  height: 7rem; /* = 112px */
+  margin: auto;
+  margin-bottom: 1.875rem; /* = 30px */
 }
 
-.App-link {
-  color: #61dafb;
+.item__img {
+  width: 100%;
+  height: 80%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item__info {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  width: 100%;
+}
+.item h3 {
+  margin: 0;
+  font-size: small;
+}
+
+.item__location {
+  color: rgb(0, 60, 255);
+  background-color: rgba(183, 189, 182, 0.253);
 }
