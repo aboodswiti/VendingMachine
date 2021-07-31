@@ -1,5 +1,5 @@
 # Vending-Machine
-## build by ReactJs
+## Build by ReactJs
 
 ![](https://media.giphy.com/media/xT5LMW6nbTu8pUHZgA/giphy.gif)
 
@@ -12,25 +12,22 @@
 #### Money Slots: the machine accepts money of the following types:
 - CoinSlot: There are four denominations: • 10c • 20c • 50c • $1
 - Notes Slot :20$ and 50$ only
-- Doing some UNIT TESTS: using jest and react testing library
 #### Keypad
 - Users can select the items to be purchased using a keypad.
-#### - Doing some UNIT TESTS: using jasmine & karma
-### [Firbase Demo Link](https://countries-ang.web.app/countries)
+#### - Doing some UNIT TESTS: using jest and react testing library
 
-  ![](https://i.imgur.com/ZAV0UIc.gif)
+### [Firbase Demo Link](https://countries-ang.web.app/countries)
 
 ## User story
 ### As a user:
--  I can see all country in home page.
--  I can search for any country by name or capital.
--  I can choose any continent and see the countries in it and I can search only within that continent.
--  I can click on Dark Theme on Navbar to toggle to dark mode.
--  I can click on back button to get back to the page before.
--  I can click Title on Navbar to go on home bage.
--  I can click on a country to see more detailed information
--  I can click on border button to see border countries.
--  I can click on border countries and go to details
+-  I can see all available Snacks in Vending Machine.
+-  I can select the items to be purchased by pressing on the keypad.
+-  I can inserts the money.
+-  I can see the accumulated amount of money each time i insert a new money.
+-  I can get my money back.
+-  I can purchase the selected snack.
+-  I can get my changes.
+
 
 
 ## How to Use this project !!
@@ -48,21 +45,16 @@ npm start
 ## Run the test
 - In terminal
 ```
-ng test
+npm test
 ```
 - You will see browser window about this test and see bass test and failing
 - Also you can see the tests at terminal
 
 ## Used Technologies
-- Anguler
-- Typescript 
-
-### For css
-- Bootstrap
-
+- React
+- MaterialUi 
+### For Tests
+- jest & react testing library 
 ### For deploy
-- Firebase
-
-### API
-- [REST Countries API](https://restcountries.eu/)
+- Heroku
 
