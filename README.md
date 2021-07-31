@@ -3,7 +3,7 @@
 
 <!-- ![](https://media.giphy.com/media/xT5LMW6nbTu8pUHZgA/giphy.gif) -->
 
-### [Heroku Demo Link]()
+### [Heroku Demo Link](http://snacks-vending-machine.herokuapp.com/)
 
 ## OVERVIEW:
 #### - This Snack Vending Machine contains: 
