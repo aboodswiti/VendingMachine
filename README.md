@@ -4,7 +4,7 @@
 ![](https://media.giphy.com/media/xT5LMW6nbTu8pUHZgA/giphy.gif)
 
 ## OVERVIEW:
-#### This Snack Vending Machine contains: 
+#### - This Snack Vending Machine contains: 
 #### Snack Slots :
 - The machine has five rows to display snack items.
 - Each row has 5 columns to pile the items.
@@ -15,7 +15,7 @@
 - Doing some UNIT TESTS: using jest and react testing library
 #### Keypad
 - Users can select the items to be purchased using a keypad.
-#### Doing some UNIT TESTS: using jasmine & karma
+#### - Doing some UNIT TESTS: using jasmine & karma
 ### [Firbase Demo Link](https://countries-ang.web.app/countries)
 
   ![](https://i.imgur.com/ZAV0UIc.gif)
