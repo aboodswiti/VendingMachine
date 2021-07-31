@@ -3,6 +3,8 @@
 
 <!-- ![](https://media.giphy.com/media/xT5LMW6nbTu8pUHZgA/giphy.gif) -->
 
+### [Heroku Demo Link](https://countries-ang.web.app/countries)
+
 ## OVERVIEW:
 #### - This Snack Vending Machine contains: 
 #### Snack Slots :
@@ -16,7 +18,6 @@
 - Users can select the items to be purchased using a keypad.
 #### - Doing some UNIT TESTS: using jest and react testing library
 
-### [Firbase Demo Link](https://countries-ang.web.app/countries)
 
 ## User story
 ### As a user:
@@ -29,10 +30,10 @@
 -  I can get my changes.
 
 ## UML Diagram
-#### UML class diagram.
+#### -UML class diagram.
 ![UML class diagram](https://i.ibb.co/HGwgLTf/VM.png) 
 
-#### UML sequence diagram.
+#### -UML sequence diagram.
 ![uml sequence diagram vending machine](https://i.ibb.co/Ks1vSZK/uml-sequence-diagram-vending-machine.jpg) 
 
 ## How to Use this project !!
@@ -55,7 +56,7 @@ npm test
 - You will see the tests at the terminal the passed & failed tests. 
 
 ## Used Technologies
-- React
+- Reactjs
 - MaterialUi 
 ### For Tests
 - Jest & React testing library 
