@@ -9,10 +9,13 @@
 - The machine has five rows to display snack items.
 - Each row has 5 columns to pile the items.
 - Each column has a number.
-- 
-- Also the site has a details page includes additional information about any country like border countries, subregion, Language.
-- Doing some UNIT TESTS: using jasmine & karma
-
+#### Money Slots: the machine accepts money of the following types:
+- CoinSlot: There are four denominations: • 10c • 20c • 50c • $1
+- Notes Slot :20$ and 50$ only
+- Doing some UNIT TESTS: using jest and react testing library
+#### Keypad
+- Users can select the items to be purchased using a keypad.
+#### Doing some UNIT TESTS: using jasmine & karma
 ### [Firbase Demo Link](https://countries-ang.web.app/countries)
 
   ![](https://i.imgur.com/ZAV0UIc.gif)
