@@ -29,7 +29,7 @@
 -  I can get my changes.
 
 ## UML Diagram
-
+-  UML sequence diagram.
 ![uml sequence diagram vending machine](https://i.ibb.co/Ks1vSZK/uml-sequence-diagram-vending-machine.jpg) 
 ## How to Use this project !!
 ### In terminal
