@@ -41,7 +41,7 @@
 - Clone the repo:
 ```
 git clone https://github.com/aboodswiti/VendingMachine.gitit
-cd vending_machine
+cd VendingMachine
 npm i
 ```
 - Run the app:
