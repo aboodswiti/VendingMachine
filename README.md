@@ -30,7 +30,7 @@
 
 ## UML Diagram
 
-![](https://ibb.co/B61MFDn) 
+![](https://i.ibb.co/Ks1vSZK/uml-sequence-diagram-vending-machine.jpg) 
 ## How to Use this project !!
 ### In terminal
 - Clone the repo:
