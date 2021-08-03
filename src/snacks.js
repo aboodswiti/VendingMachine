@@ -144,10 +144,10 @@ export const snacks = [
 
   {
     location: "51",
-    item: "cola",
+    item: "fanta",
     price: 2.50,
     quantity: 5,
-    img: "https://media.officedepot.com/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,h_1665,q_auto,w_1250/c_pad,h_1665,w_1250/v1/products/208206/208206_p?pgw=1&pgwact=1",
+    img: "https://pizzahousealmere.nl/wp-content/uploads/2020/02/Fanta-orange-canada.png",
   },
   {
     location: "52",
@@ -160,7 +160,7 @@ export const snacks = [
     location: "53",
     item: "Sprite",
     price: 3,
-    quantity: 5,
+    quantity: 2,
     img: "https://images-na.ssl-images-amazon.com/images/I/51AniJpRujL._SX425_.jpg",
   },
   {
