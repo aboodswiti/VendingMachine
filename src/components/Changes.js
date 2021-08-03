@@ -5,7 +5,7 @@ const Changes = ({ allMoney, availableChange, returnedChange }) => {
   return (
     <div className="changes">
       <div>
-        {Object.keys(returnedChange).length ? <p> Your Changes : </p> : null}
+        {Object.keys(returnedChange).length ? <p>Change : </p> : null}
         {Object.entries(returnedChange).map(([key, val]) => (
           <p key={key}>
             ${key}: {val}
@@ -23,7 +23,7 @@ const Changes = ({ allMoney, availableChange, returnedChange }) => {
       <h4> $Type : #Amount </h4>
       {Object.entries(availableChange).map(([key, val]) => (
         <h3 key={key}>
-          {key}: {val}
+          ${key}: {val}
         </h3>
       ))}
     </div>

@@ -11,8 +11,8 @@ const SnackSlots = ({ item }) => {
         <h3>{item.item}</h3>
         <h3>${item.price}</h3>
       </div>
-      <h3 className="item__location">{item.location}</h3>
       <h3 className="item__quantity">#{item.quantity}</h3>
+      <h3 className="item__location">{item.location}</h3>
     </div>
   );
 };

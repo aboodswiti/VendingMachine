@@ -36,6 +36,10 @@
 .Selected-item p {
   color: red;
 }
+.Selected-item{
+  border-top-style: inset;
+
+}
 .numpad {
   display: flex;
   justify-content: center;
@@ -53,6 +57,7 @@
   height: 7rem; /* = 112px */
   margin: auto;
   margin-bottom: 1.875rem; /* = 30px */
+  
 }
 
 .item__img {
