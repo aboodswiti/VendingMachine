@@ -40,7 +40,7 @@ it("Add money by $50 and click button to get your money back", () => {
     expect(getByText(/Get Your money/i).textContent).toBe("Get Your money $50")
     fireEvent.click(getByText(/Get Your money/i));
     expect(getByText("$250.8").textContent).toBe("$250.8");
-    expect(getByText(/Your Changes/i)).toBeInTheDocument();
+    expect(getByText("Change :")).toBeInTheDocument();
   
   
   });
