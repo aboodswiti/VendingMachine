@@ -33,13 +33,17 @@ const ChangeMaking = ({
     let counter = 0;
     let newChange = { ...availableChange };
     const returnedChange = {};
-
+// return 60
+// 50$ = 1
+// 20$ = 3
+//
     while (money >= bills[0] && index !== -1) {
       if (
         money >= bills[index] &&
         counter < availableChange[bills[index]] &&
         availableChange[bills[index]] !== 0
       ) {
+        
         money -= bills[index];
         money = parseFloat(money.toFixed(2), 10);
         counter++;
